@@ -1,0 +1,8 @@
+super: true
+name: fredrik
+id: a74f7981-75b8-4987-96fb-8dbc1be15a2d
+password_hash: $2y$10$xFpeBCVK4VFjEkcUMR/Bj.pBDnyZf2IuyKs2VnnFlt3/qYpI6HlTW
+preferences:
+  collections:
+    nav:
+      after_save: create_another

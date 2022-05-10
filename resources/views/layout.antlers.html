@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{ site:short_locale }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Author" content="Fredrik Sundgren">
+    <meta name="description" content="Sport travel">
+    <title>{{ title ?? site:name }}</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="https://unpkg.com/alpinejs@3.10.2/dist/cdn.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Karla:400,700display=swap');
+        .font-family-karla {
+            font-family: karla;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 font-sans leading-normal text-gray-800 font-family-karla">
+    <div class="">
+        {{ partial:nav }} {{ template_content }}
+    </div>
+    <script src="{{ mix src='/js/site.js' }}"></script>
+</body>
+
+</html>

@@ -2,7 +2,7 @@ title: Wcm_travel
 template: wcm_travel/show
 layout: layout
 revisions: false
-route: '/wcm_travel/{slug}'
+route: '/travel/{slug}'
 date: true
 sort_dir: desc
 date_behavior:

@@ -1,5 +1,8 @@
+title: Netr_team
 template: netr_team/show
+layout: layout
 revisions: false
+route: '/netr_show/{slug}'
 date: true
 sort_dir: desc
 date_behavior:

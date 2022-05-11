@@ -1,0 +1,17 @@
+tree:
+  -
+    id: c63c54e0-bd91-42af-99d5-124f44668800
+    title: Fotbollsresor
+    url: /soccers
+  -
+    id: 1b1df9ee-19a9-4b0d-b15c-81d1534482cc
+    title: Sportresor
+    url: /travels
+  -
+    id: c71bd5b0-9468-4d58-9c15-5b11c10dc14b
+    title: Cupor
+    url: /cups
+  -
+    id: d00d8b55-5725-4193-bfdb-bd162b625482
+    title: Träningsresor
+    url: /camps

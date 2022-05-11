@@ -2,7 +2,7 @@ title: Travel_matches
 template: travel_matches/show
 layout: layout
 revisions: false
-route: '/travel_matches/{slug}'
+route: '/matches/{slug}'
 date: true
 sort_dir: desc
 date_behavior:

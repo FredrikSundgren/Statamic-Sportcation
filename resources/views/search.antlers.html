@@ -1,0 +1,12 @@
+<div class="max-w-7xl mx-auto bg-white overflow-hidden shadow-lg rounded-lg mt-12 p-2">
+    <h1 class="text-4xl font-black mb-4 text-center">{{ title }}</h1>
+    {{ search:results as="results" }} {{ if results }}
+    <ul class="space-y-4">
+        {{ results }}
+        <li>
+            <a href="{{ url }}" class="font-bold text-2xl hover:text-blue-500">{{ title }}</a>
+        </li>
+        {{ /results }}
+    </ul>
+    {{ /if }} {{ /search:results }}
+</div>

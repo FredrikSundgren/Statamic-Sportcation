@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::statamic('example', 'example-view', [
-//    'title' => 'Example'
-// ]);
+Route::statamic('search', 'search', [
+   'title' => 'Sök Resultat',
+
+]);
+
+Route::statamic('camps', 'travel_camp/index');
+Route::statamic('cups', 'travel_cup/index');
+Route::statamic('matches', 'travel_matches/index');
+Route::statamic('soccers', 'travel_soccer/index');
+Route::statamic('travels', 'wcm_travel/index');

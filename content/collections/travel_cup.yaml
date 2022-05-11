@@ -1,5 +1,8 @@
+title: Travel_cup
 template: travel_cup/show
+layout: layout
 revisions: false
+route: '/cups/{slug}'
 date: true
 sort_dir: desc
 date_behavior:

@@ -1,5 +1,8 @@
+title: Travel_camp
 template: travel_camp/show
+layout: layout
 revisions: false
+route: '/camps/{slug}'
 date: true
 sort_dir: desc
 date_behavior:

@@ -1,3 +1,4 @@
+template: travel_camp/show
 revisions: false
 date: true
 sort_dir: desc

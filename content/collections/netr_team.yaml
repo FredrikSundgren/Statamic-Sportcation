@@ -1,3 +1,4 @@
+template: netr_team/show
 revisions: false
 date: true
 sort_dir: desc

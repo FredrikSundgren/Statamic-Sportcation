@@ -110,98 +110,46 @@
 
 </div>
 
+
 <div class="max-w-7xl mx-auto bg-white overflow-hidden shadow-lg rounded-lg mt-12 p-2 flex">
 
-    <div class="flex flex-wrap">
-        {{ collection:travel_soccer limit="6" }}
-        <div class="max-w-xs mx-auto overflow-hidden bg-white rounded-lg shadow-lg  my-7">
-            <div class="px-4 py-2 ">
 
-                <h1 class="text-3xl font-bold text-gray-800 uppercase dark:text-white">{{ title }}</h1>
-                <p class="mt-1 text-sm text-gray-600">I samtliga grundpaket ingår: Två nätter med del i dubbelrum på 3-stjärnigt hotell i centrala Leeds, frukost samt matchbiljett. Vi erbjuder även paket inklusive flyg.</p>
-            </div>
-
-            <img class="object-cover w-full h-48 mt-2" src="{{ assets_field }}" alt="NIKE AIR">
-
-            <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
-                <h1 class="text-lg font-bold text-white">18000 kr</h1>
-                <button class="px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-200 transform bg-white rounded hover:bg-gray-200 focus:bg-gray-400 focus:outline-none">Beställ</button>
-            </div>
-        </div>
-        {{ /collection:travel_soccer }}
-    </div>
-
-
-</div>
-<div class="max-w-7xl mx-auto bg-white overflow-hidden shadow-lg rounded-lg mt-12 p-2">
-
-
-    <div class="max-w-xs shadow">
-        {{ collection:travel_soccer limit="3" }}
-        <div class="p-4 rounded ">
-
-            <img src="https://images.unsplash.com/photo-1511886929837-354d827aae26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
-            <h2 class="mt-4 text-lg">{{ title }}</h2>
-            <ul class="flex items-center">
-                <li>
-
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-yellow-300 fill-current hover:text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
-            />
-          </svg>
-                </li>
-                <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-yellow-300 fill-current hover:text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
-            />
-          </svg>
-                </li>
-                <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-yellow-300 fill-current hover:text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
-            />
-          </svg>
-                </li>
-                <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-yellow-300 fill-current hover:text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
-            />
-          </svg>
-                </li>
-                <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
-            />
-          </svg>
-                </li>
-                <li class="ml-2 text-xs text-gray-600">20,150</li>
-            </ul>
-            <h4 class="text-xl font-bold text-red-600">18000 kr</h4>
-            <p class="text-sm text-gray-400">Bästa SPORTCATION någonsin</p>
-            <p class="text-sm text-gray-600">Nöjd kund</p>
+    <div>
+        <h2 class="text-center text-2xl my-3">Detaljer om våra resor</h2>
+        <p class="text-center text-lg my-3">Fotbollsresor till >Champions League. Vi skräddarsyr er fotbollsresa enligt era önskemål och har efter 40 år i sportresebranschen ett fantastiskt nätverk runt om i Europa och kan därför erbjuda er förmånliga priser och kvalitativa fotbollsresor.</p>
+        {{ collection:travel_soccer }}
+        <a href="{{ url }}">
             {{ /collection:travel_soccer }}
-        </div>
+            <div class="flex flex-wrap">
+
+                {{ collection:travel_soccer limit="6" }}
+
+                <div class="max-w-xs mx-auto overflow-hidden bg-gray-200 rounded-lg shadow-lg my-7 hover:bg-black">
+                    <div class="px-4 py-2 hover:text-white">
+
+                        <h1 class="text-3xl font-bold text-gray-500 uppercase ">{{ title }}</h1>
+
+                    </div>
+
+                    <img class="object-cover w-full h-48 mt-2" src="{{ assets_field }}" alt="">
+
+                    <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
+                        <h1 class="text-lg font-bold text-white">18000 kr</h1>
+
+                    </div>
+                </div>
+
+                {{ /collection:travel_soccer }}
+            </div>
+        </a>
+        <hr>
+        <h2 class="mt-16 text-center text-3xl">Kundernas Omdömen</h2>
+
 
     </div>
-</div>
+
+
+
+
+
 </div>

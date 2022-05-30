@@ -109,12 +109,12 @@
     <div>
         <h2 class="text-center text-2xl my-3">Detaljer om våra resor</h2>
         <p class="text-center text-lg my-3">Fotbollsresor till >Champions League. Vi skräddarsyr er fotbollsresa enligt era önskemål och har efter 40 år i sportresebranschen ett fantastiskt nätverk runt om i Europa och kan därför erbjuda er förmånliga priser och kvalitativa fotbollsresor.</p>
-        {{ collection:travel_soccer }}
+        {{ collection:wcm_travel }}
         <a href="{{ url }}">
-            {{ /collection:travel_soccer }}
+            {{ /collection:wcm_travel }}
             <div class="flex flex-wrap">
 
-                {{ collection:travel_soccer limit="6" }}
+                {{ collection:wcm_travel limit="6" }}
 
                 <div class="max-w-xs mx-auto overflow-hidden bg-gray-200 rounded-lg shadow-lg my-7 hover:bg-black">
                     <div class="px-4 py-2 hover:text-white">
@@ -126,12 +126,12 @@
                     <img class="object-cover w-full h-48 mt-2" src="{{ assets_field }}" alt="">
 
                     <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
-                        <h1 class="text-lg font-bold text-white">18000 kr</h1>
+                        <h1 class="text-lg font-bold text-white">{{ tagline }}</h1>
 
                     </div>
                 </div>
 
-                {{ /collection:travel_soccer }}
+                {{ /collection:wcm_travel }}
             </div>
         </a>
         <hr>
